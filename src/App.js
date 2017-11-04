@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Projects from './Components/Projects';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>MY APP</h1>
+        <Projects />
         
-        <header>THIS IS A HEADER</header>
-        <p>THIS IS MY AWESOME REACT APP</p>
-        <div class = "aligner">
-        <div class = "tester"  id = "b1"></div>
-        <div class = "tester"  id = "b2"></div>
-        </div>
+    
+      
       </div>
     );
   }
