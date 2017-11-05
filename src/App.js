@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>MY APP</h1>
-        <Projects />
+        <Projects test = "HELLO WORLD"/>
         
     
       
